@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sem_04_tar_01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tareas_sd/sem_04_tar_01/CLIENTES4_T_01V2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tareas_sd/sem_04_tar_01/SERVERS4_T_01V2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
