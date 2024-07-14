@@ -17,8 +17,11 @@ public class game implements Serializable {
 
     public game() {
         this.guesses = new ArrayList<>();
-        loadDictionary("diccionario.txt");
+        loadDictionary("C:/Users/Laptop/Desktop/Carlos Loja UEES/Sistemas_Distribuidos/ProyectoSDistribuido2024/grp10/java_wordl/online_wordl/src/diccionario.txt");
         selectRandomWord();
+        wordl_UI ui = new wordl_UI(this);
+        ui.setVisible(true);
+        System.out.println("Juego creado");
     }
 
     // Remove the duplicate method makeGuess(String)
